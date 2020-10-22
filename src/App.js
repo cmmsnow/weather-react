@@ -1,15 +1,17 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import Weather from "./Weather";
+import Searchbar from "./Searchbar";
+import Timestamp from "./Timestamp";
+import Main from "./Main";
+import Footer from "./Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello from Rodeo</h1>
-        <Weather />
-      </header>
+      <Searchbar />
+      <Timestamp />
+      <Main />
+      <Footer />
     </div>
   );
 }

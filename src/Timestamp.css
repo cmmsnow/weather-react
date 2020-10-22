@@ -1,0 +1,19 @@
+#current-day,
+#current-time {
+  font-size: 12px;
+}
+
+.day-and-time {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 10px;
+  left: 5px;
+  text-align: left;
+}
+
+p::first-letter {
+  text-transform: capitalize;
+}

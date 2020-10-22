@@ -1,0 +1,62 @@
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+  padding-left: 6px;
+  padding-top: 36px;
+}
+
+h3 {
+  font-size: 15px;
+  line-height: 25px;
+  padding-top: 35px;
+}
+
+img {
+  position: relative;
+  right: 12px;
+}
+
+#icon {
+  position: relative;
+  top: 25px;
+  left: 15px;
+}
+
+.temperature {
+  font-size: 44px;
+}
+
+.increment {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+#temp-change {
+  font-size: 18px;
+  position: relative;
+  bottom: 50px;
+  left: 50px;
+}
+
+h2,
+h3::first-letter {
+  text-transform: capitalize;
+}
+
+.active {
+  color: rgb(33, 37, 41);
+  cursor: default;
+}
+
+.active:hover {
+  color: rgb(33, 37, 41);
+  cursor: default;
+  text-decoration: none;
+}
