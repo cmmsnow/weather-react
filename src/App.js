@@ -7,10 +7,12 @@ import Footer from "./Footer";
 
 function App() {
   return (
-    <div className="App">
-      <Searchbar />
-      <Timestamp />
-      <Main />
+    <div className="container">
+      <div className="App">
+        <Searchbar />
+        <Timestamp />
+        <Main />
+      </div>
       <Footer />
     </div>
   );

@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "adjust-sourcemap-loader": "^3.0.0",
     "axios": "^0.20.0",
+    "bootstrap": "^4.5.3",
     "object-path": "^0.11.5",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",

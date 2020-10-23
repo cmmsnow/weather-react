@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <p className="github-footer">
       <a
-        href="https://github.com/cmmsnow/weather-app/"
+        href="https://github.com/cmmsnow/weather-react"
         target="_blank"
         className="github-link"
         rel="noopener noreferrer"
